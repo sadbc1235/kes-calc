@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    height: 15vh;
+    padding: 50px 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.header > h1 {
+    font-size: 5vh;
+    padding: 1vh;
+    color: #fff;
+    text-decoration: underline;
+    border: 1px solid #fff;
+}
+
+.header > input[type='month'] {
+    display: none;
+}
+
+.header > .profileBox {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 2vh;
+    width: 100px;
+    height: 4vh;
+    display: flex;
+    overflow: hidden;
+    background-color: #fff;
+}
+.header > .profileBox > div:nth-child(1) {
+    border-radius: 0 50% 50% 0;
+    height: 100%;
+    width: 4vh;
+    overflow: hidden;
+    background-color: #646464;
+}
+.header > .profileBox > div:nth-child(1) > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header > .profileBox > div:nth-child(2) {
+    height: 100%;
+    width: 70%;
+}
